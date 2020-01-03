@@ -1,0 +1,205 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #eee;
+}
+
+nav a.active {
+  border-bottom: 5px solid #333;
+  transition: all ease 0.5s;
+}
+.read-more-container {
+  vertical-align: top;
+  padding-left: 20px;
+}
+
+.read-more-container > a {
+  color: rgb(34, 34, 34);
+  font-weight: bold;
+}
+
+.features-container > div > img {
+  cursor: pointer;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.logo-container > a {
+  padding-left: 40px;
+}
+
+.img-container {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.img-container > img {
+  height: 268px;
+
+  width: 320px;
+
+  border-radius: 4px;
+
+  overflow: hidden;
+
+  margin-left: 1px;
+}
+
+.post.card {
+  display: block;
+
+  margin-left: auto;
+
+  margin-right: auto;
+
+  border-radius: 3px;
+
+  margin-bottom: 20px;
+
+  padding: 8px 16px 8px 8px;
+
+  height: 284px;
+
+  width: 900px;
+
+  z-index: 1;
+}
+
+.card-content-wrapper > span {
+  font-size: 22px;
+}
+.delete-container {
+  display: block;
+
+  position: absolute;
+
+  right: 48%;
+
+  bottom: 10px;
+}
+
+.container .post {
+  position: relative;
+
+  display: block;
+
+  margin-left: auto;
+
+  margin-right: auto;
+
+  border-radius: 3px;
+
+  margin-bottom: 20px;
+
+  padding: 8px 16px 8px 8px;
+
+  height: 290px;
+
+  width: 900px;
+
+  z-index: 1;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.container-post .post {
+  position: relative;
+
+  display: block;
+
+  margin-left: auto;
+
+  margin-right: auto;
+
+  border-radius: 3px;
+
+  margin-bottom: 20px;
+
+  padding: 8px 16px 8px 8px;
+
+  height: 350px;
+
+  width: 900px;
+
+  z-index: 1;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.container.home {
+  width: 900px;
+}
+
+.container-post .card-content-wrapper .features-container {
+  padding-top: 15px;
+}
+.card-content-wrapper {
+  display: inline-block;
+  vertical-align: top;
+
+  padding-right: 20px;
+
+  width: 528px;
+
+  right: 24px;
+}
+
+.card-content-wrapper h4 {
+  margin: 0px;
+}
+
+.bookmark-container {
+  vertical-align: top;
+  padding-left: 20px;
+}
+
+.title-text {
+  font-size: 22px;
+
+  line-height: 27px;
+  color: #44444d !important;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.features-container {
+  padding-top: 25px;
+}
+
+.features-container > div > img {
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+
+.features-container > div {
+  display: inline-block;
+}
+
+.features-container > div:first-of-type {
+  padding-right: 20px;
+}
+
+.home .post > img {
+  position: absolute;
+  top: 20px;
+  left: -100px;
+  opacity: 0.6;
+}
+
+.container-post {
+  margin-top: 60px;
+}
+
+.container-post > .post .img-container img {
+  height: 330px;
+}
+
+.home .post {
+  overflow: hidden;
+}
